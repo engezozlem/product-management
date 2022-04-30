@@ -1,0 +1,28 @@
+#Server Properties
+server:
+  port: 8081
+
+#Database Properties
+spring:
+  application:
+    name: Product Management
+
+  datasource:
+    url: jdbc:mysql://mySqlDatabase:3307/product
+    username: root
+    password: root
+
+  #Hibernate/JPA Properties
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        show_sql: false
+        format_sql: true
+    hibernate:
+      ddl-auto: create-drop
+
+
+#logging.level.org.hibernate:
+#  SQL: DEBUG
+#  type.descriptor.sql.BasicBinder: TRACE

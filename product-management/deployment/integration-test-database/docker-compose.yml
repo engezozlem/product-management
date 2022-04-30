@@ -1,0 +1,11 @@
+version: '3'
+services:
+  mySqlIntegrationTestDatabase:
+    image: 'mysql:5.7'
+    container_name: mySqlIntegrationTestDatabase
+    environment:
+      - MYSQL_ROOT_PASSWORD=testRoot
+      - MYSQL_PASSWORD=testRoot
+      - MYSQL_DATABASE=product
+    ports:
+      - '3309:3308'
