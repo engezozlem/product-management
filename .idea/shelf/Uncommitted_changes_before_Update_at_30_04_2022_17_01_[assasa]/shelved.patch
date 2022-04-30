@@ -1,0 +1,563 @@
+Index: .idea/product-management.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/product-management.iml b/.idea/product-management.iml
+new file mode 100644
+--- /dev/null	(date 1650985505059)
++++ b/.idea/product-management.iml	(date 1650985505059)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1651324525464)
++++ b/.idea/vcs.xml	(date 1651324525464)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1650987251093)
++++ b/.idea/misc.xml	(date 1650987251093)
+@@ -0,0 +1,5 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="ProjectRootManager" version="2" project-jdk-name="11" project-jdk-type="JavaSDK" />
++</project>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(date 1651325359179)
++++ b/.idea/compiler.xml	(date 1651325359179)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile default="true" name="Default" enabled="true" />
++    </annotationProcessing>
++    <bytecodeTargetLevel>
++      <module name="product-management.product-management.main~1" target="11" />
++      <module name="product-management.product-management.test~1" target="11" />
++    </bytecodeTargetLevel>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules/product-management.product-management.test~1.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules/product-management.product-management.test~1.iml b/.idea/modules/product-management.product-management.test~1.iml
+new file mode 100644
+--- /dev/null	(date 1651325317088)
++++ b/.idea/modules/product-management.product-management.test~1.iml	(date 1651325317088)
+@@ -0,0 +1,100 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
++    <output-test url="file://$MODULE_DIR$/../../product-management/build/classes/java/test" />
++    <exclude-output />
++    <content url="file://$MODULE_DIR$/../../product-management/src/test">
++      <sourceFolder url="file://$MODULE_DIR$/../../product-management/src/test/java" isTestSource="true" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="module" module-name="product-management.product-management.main~1" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-validation:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-aop:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: jakarta.transaction:jakarta.transaction-api:1.3.3" level="project" />
++    <orderEntry type="library" name="Gradle: jakarta.persistence:jakarta.persistence-api:2.2.3" level="project" />
++    <orderEntry type="library" name="Gradle: org.hibernate:hibernate-core:5.6.8.Final" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-jpa:2.6.4" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-aspects:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-json:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-webmvc:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-web:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:9.0.62" level="project" />
++    <orderEntry type="library" name="Gradle: org.hibernate.validator:hibernate-validator:6.2.3.Final" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-test-autoconfigure:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-test:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: com.jayway.jsonpath:json-path:2.6.0" level="project" />
++    <orderEntry type="library" name="Gradle: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />
++    <orderEntry type="library" name="Gradle: org.assertj:assertj-core:3.21.0" level="project" />
++    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest:2.2" level="project" />
++    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter:5.8.2" level="project" />
++    <orderEntry type="library" name="Gradle: org.mockito:mockito-junit-jupiter:4.0.0" level="project" />
++    <orderEntry type="library" name="Gradle: org.mockito:mockito-core:4.0.0" level="project" />
++    <orderEntry type="library" name="Gradle: org.skyscreamer:jsonassert:1.5.0" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-test:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.xmlunit:xmlunit-core:2.8.4" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.9.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-jdbc:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: com.zaxxer:HikariCP:4.0.3" level="project" />
++    <orderEntry type="library" name="Gradle: org.glassfish.jaxb:jaxb-runtime:2.3.6" level="project" />
++    <orderEntry type="library" name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.1.2.Final" level="project" />
++    <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.4.3.Final" level="project" />
++    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.11.22" level="project" />
++    <orderEntry type="library" name="Gradle: antlr:antlr:2.7.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.jboss:jandex:2.4.2.Final" level="project" />
++    <orderEntry type="library" name="Gradle: com.fasterxml:classmate:1.5.1" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-orm:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-commons:2.6.4" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-tx:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-context:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.36" level="project" />
++    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.2" level="project" />
++    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.2" level="project" />
++    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.2" level="project" />
++    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.13.2.1" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: jakarta.annotation:jakarta.annotation-api:1.3.5" level="project" />
++    <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:1.29" level="project" />
++    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.62" level="project" />
++    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:9.0.62" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: jakarta.validation:jakarta.validation-api:2.0.2" level="project" />
++    <orderEntry type="library" name="Gradle: net.minidev:json-smart:2.4.8" level="project" />
++    <orderEntry type="library" name="Gradle: jakarta.activation:jakarta.activation-api:1.2.2" level="project" />
++    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-params:5.8.2" level="project" />
++    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.8.2" level="project" />
++    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy-agent:1.11.22" level="project" />
++    <orderEntry type="library" name="Gradle: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.glassfish.jaxb:txw2:2.3.6" level="project" />
++    <orderEntry type="library" name="Gradle: com.sun.istack:istack-commons-runtime:3.0.12" level="project" />
++    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.13.2" level="project" />
++    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.13.2" level="project" />
++    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.11" level="project" />
++    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.17.2" level="project" />
++    <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:1.7.36" level="project" />
++    <orderEntry type="library" name="Gradle: net.minidev:accessors-smart:2.4.8" level="project" />
++    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apiguardian:apiguardian-api:1.1.2" level="project" />
++    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.8.2" level="project" />
++    <orderEntry type="library" name="Gradle: org.opentest4j:opentest4j:1.2.0" level="project" />
++    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.11" level="project" />
++    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.17.2" level="project" />
++    <orderEntry type="library" name="Gradle: org.ow2.asm:asm:9.1" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Gradle: mysql:mysql-connector-java:8.0.28" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.8.2" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.objenesis:objenesis:3.2" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.activation:jakarta.activation:1.2.2" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-engine:1.8.2" level="project" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+new file mode 100644
+--- /dev/null	(date 1650986898962)
++++ b/.idea/gradle.xml	(date 1650986898962)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="GradleMigrationSettings" migrationVersion="1" />
++  <component name="GradleSettings">
++    <option name="linkedExternalProjectsSettings">
++      <GradleProjectSettings>
++        <option name="distributionType" value="DEFAULT_WRAPPED" />
++        <option name="externalProjectPath" value="$PROJECT_DIR$/product-management" />
++        <option name="gradleHome" value="$PROJECT_DIR$/../gradle/gradle-7.4.2-all/gradle-7.4.2" />
++        <option name="gradleJvm" value="openjdk-17" />
++        <option name="modules">
++          <set>
++            <option value="$PROJECT_DIR$/product-management" />
++          </set>
++        </option>
++      </GradleProjectSettings>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules/product-management.product-management.main~1.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules/product-management.product-management.main~1.iml b/.idea/modules/product-management.product-management.main~1.iml
+new file mode 100644
+--- /dev/null	(date 1651325317100)
++++ b/.idea/modules/product-management.product-management.main~1.iml	(date 1651325317100)
+@@ -0,0 +1,74 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
++    <output url="file://$MODULE_DIR$/../../product-management/build/classes/java/main" />
++    <exclude-output />
++    <content url="file://$MODULE_DIR$/../../product-management/src/main">
++      <sourceFolder url="file://$MODULE_DIR$/../../product-management/src/main/java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/../../product-management/src/main/resources" type="java-resource" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-validation:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-aop:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: jakarta.transaction:jakarta.transaction-api:1.3.3" level="project" />
++    <orderEntry type="library" name="Gradle: jakarta.persistence:jakarta.persistence-api:2.2.3" level="project" />
++    <orderEntry type="library" name="Gradle: org.hibernate:hibernate-core:5.6.8.Final" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-jpa:2.6.4" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-aspects:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-json:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-webmvc:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-web:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:9.0.62" level="project" />
++    <orderEntry type="library" name="Gradle: org.hibernate.validator:hibernate-validator:6.2.3.Final" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.9.7" level="project" />
++    <orderEntry type="library" name="Gradle: com.zaxxer:HikariCP:4.0.3" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-jdbc:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.1.2.Final" level="project" />
++    <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.4.3.Final" level="project" />
++    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.11.22" level="project" />
++    <orderEntry type="library" name="Gradle: antlr:antlr:2.7.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.jboss:jandex:2.4.2.Final" level="project" />
++    <orderEntry type="library" name="Gradle: com.fasterxml:classmate:1.5.1" level="project" />
++    <orderEntry type="library" name="Gradle: org.glassfish.jaxb:jaxb-runtime:2.3.6" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-context:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-orm:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-commons:2.6.4" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-tx:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.36" level="project" />
++    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.2" level="project" />
++    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.2" level="project" />
++    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.2" level="project" />
++    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.13.2.1" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:2.6.7" level="project" />
++    <orderEntry type="library" name="Gradle: jakarta.annotation:jakarta.annotation-api:1.3.5" level="project" />
++    <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:1.29" level="project" />
++    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.62" level="project" />
++    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:9.0.62" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: jakarta.validation:jakarta.validation-api:2.0.2" level="project" />
++    <orderEntry type="library" name="Gradle: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />
++    <orderEntry type="library" name="Gradle: org.glassfish.jaxb:txw2:2.3.6" level="project" />
++    <orderEntry type="library" name="Gradle: com.sun.istack:istack-commons-runtime:3.0.12" level="project" />
++    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.3.19" level="project" />
++    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.13.2" level="project" />
++    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.13.2" level="project" />
++    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.11" level="project" />
++    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.17.2" level="project" />
++    <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:1.7.36" level="project" />
++    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.11" level="project" />
++    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.17.2" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Gradle: mysql:mysql-connector-java:8.0.28" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.activation:jakarta.activation:1.2.2" level="project" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(date 1650985620086)
++++ b/.idea/jarRepositories.xml	(date 1650985620086)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="MavenRepo" />
++      <option name="name" value="MavenRepo" />
++      <option name="url" value="https://repo.maven.apache.org/maven2/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(date 1650993424540)
++++ b/.idea/uiDesigner.xml	(date 1650993424540)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/libraries-with-intellij-classes.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries-with-intellij-classes.xml b/.idea/libraries-with-intellij-classes.xml
+new file mode 100644
+--- /dev/null	(date 1650985620099)
++++ b/.idea/libraries-with-intellij-classes.xml	(date 1650985620099)
+@@ -0,0 +1,65 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="libraries-with-intellij-classes">
++    <option name="intellijApiContainingLibraries">
++      <list>
++        <LibraryCoordinatesState>
++          <option name="artifactId" value="ideaIU" />
++          <option name="groupId" value="com.jetbrains.intellij.idea" />
++        </LibraryCoordinatesState>
++        <LibraryCoordinatesState>
++          <option name="artifactId" value="ideaIU" />
++          <option name="groupId" value="com.jetbrains" />
++        </LibraryCoordinatesState>
++        <LibraryCoordinatesState>
++          <option name="artifactId" value="ideaIC" />
++          <option name="groupId" value="com.jetbrains.intellij.idea" />
++        </LibraryCoordinatesState>
++        <LibraryCoordinatesState>
++          <option name="artifactId" value="ideaIC" />
++          <option name="groupId" value="com.jetbrains" />
++        </LibraryCoordinatesState>
++        <LibraryCoordinatesState>
++          <option name="artifactId" value="pycharmPY" />
++          <option name="groupId" value="com.jetbrains.intellij.pycharm" />
++        </LibraryCoordinatesState>
++        <LibraryCoordinatesState>
++          <option name="artifactId" value="pycharmPY" />
++          <option name="groupId" value="com.jetbrains" />
++        </LibraryCoordinatesState>
++        <LibraryCoordinatesState>
++          <option name="artifactId" value="pycharmPC" />
++          <option name="groupId" value="com.jetbrains.intellij.pycharm" />
++        </LibraryCoordinatesState>
++        <LibraryCoordinatesState>
++          <option name="artifactId" value="pycharmPC" />
++          <option name="groupId" value="com.jetbrains" />
++        </LibraryCoordinatesState>
++        <LibraryCoordinatesState>
++          <option name="artifactId" value="clion" />
++          <option name="groupId" value="com.jetbrains.intellij.clion" />
++        </LibraryCoordinatesState>
++        <LibraryCoordinatesState>
++          <option name="artifactId" value="clion" />
++          <option name="groupId" value="com.jetbrains" />
++        </LibraryCoordinatesState>
++        <LibraryCoordinatesState>
++          <option name="artifactId" value="riderRD" />
++          <option name="groupId" value="com.jetbrains.intellij.rider" />
++        </LibraryCoordinatesState>
++        <LibraryCoordinatesState>
++          <option name="artifactId" value="riderRD" />
++          <option name="groupId" value="com.jetbrains" />
++        </LibraryCoordinatesState>
++        <LibraryCoordinatesState>
++          <option name="artifactId" value="goland" />
++          <option name="groupId" value="com.jetbrains.intellij.goland" />
++        </LibraryCoordinatesState>
++        <LibraryCoordinatesState>
++          <option name="artifactId" value="goland" />
++          <option name="groupId" value="com.jetbrains" />
++        </LibraryCoordinatesState>
++      </list>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1651325359170)
++++ b/.idea/modules.xml	(date 1651325359170)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/product-management.iml" filepath="$PROJECT_DIR$/.idea/product-management.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
