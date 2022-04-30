@@ -38,9 +38,8 @@ class ProductManagementIntegrationTests {
             productDTO = productRestController.saveProduct(productDTO);
             assertNotNull(productDTO);
         } catch (SaveException | UniqueViolationException e) {
-            e.printStackTrace();
+            Assertions.fail(e);
         }
-
     }
 
     @Test
@@ -50,7 +49,7 @@ class ProductManagementIntegrationTests {
             allProducts = productRestController.getAllProducts();
             assertNotNull(allProducts);
         } catch (GetException e) {
-            Assertions.fail(e.getCause());
+            Assertions.fail(e);
         }
     }
 
