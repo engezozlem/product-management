@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="034552e2-729f-415d-85e4-356dd43f3e4b" name="sadasdasd" comment="" />
+    <list default="true" id="034552e2-729f-415d-85e4-356dd43f3e4b" name="sadasdasd" comment="added vue js plugins">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-management/src/product-management-frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-management/src/product-management-frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-management/src/product-management-frontend/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-management/src/product-management-frontend/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-management/src/product-management-frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-management/src/product-management-frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-management/src/product-management-frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-management/src/product-management-frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-management/src/product-management-frontend/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-management/src/product-management-frontend/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-management/src/product-management-frontend/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-management/src/product-management-frontend/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-management/src/product-management-frontend/vue.config.js" beforeDir="false" />
+    </list>
+    <list id="03e9deec-950e-4524-ab28-6fe7b7f58581" name="Default changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,12 +86,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/product-management/src/test/java/com/ekin/tech/product/management" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/product-management/deployment/integration-test-database" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/product-management/src/product-management-frontend/src/assets" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\90532\Desktop\product-management\product-management\src\product-management-frontend\src\assets" />
       <recent name="C:\Users\90532\Desktop\product-management\product-management\deployment\integration-test-database" />
       <recent name="C:\Users\90532\Desktop\product-management\product-management\deployment" />
     </key>
@@ -91,10 +108,10 @@
       <recent name="com.ekin.tech.product.management.exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductManagementApplication">
+  <component name="RunManager" selected="Gradle.ProductManagementIntegrationTests">
     <configuration name="ProductManagementApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ekin.tech.product.management.ProductManagementApplication" />
-      <module name="product-management.product-management.main" />
+      <module name="product-management.product-management.main~1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ekin.tech.product.management.*" />
@@ -104,6 +121,27 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="ProductManagementIntegrationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/product-management" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.ekin.tech.product.management.ProductManagementIntegrationTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="integration-test-database: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
@@ -115,16 +153,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.integration-test-database: Compose Deployment" />
+        <item itemvalue="Gradle.ProductManagementIntegrationTests" />
         <item itemvalue="Application.ProductManagementApplication" />
+        <item itemvalue="Docker.integration-test-database: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="daf8cc27-fa01-41e3-87aa-56d0263c6bea" name="Default Changelist" comment="" />
-      <changelist id="a398edd7-4194-4bd0-9512-38db3aae3856" name="assasa" comment="" />
       <created>1650985498878</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
