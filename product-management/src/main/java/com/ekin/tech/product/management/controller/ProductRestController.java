@@ -12,6 +12,7 @@ import java.util.List;
  * TODO 6 : create other rest apis
  */
 @RestController
+@RequestMapping("/product/api")
 public class ProductRestController {
 
     private final ProductService productService;
