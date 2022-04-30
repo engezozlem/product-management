@@ -90,7 +90,6 @@ class ProductManagementIntegrationTests {
 
     @Test
     void expectedUniqueViolationExceptionWithSaveProduct() {
-        saveProduct();
         ProductDTO sameProduct = new ProductDTO(PRODUCT_NAME, PRODUCT_DESCRIPTION, PRODUCT_CODE);
 
         UniqueViolationException uniqueViolationException = assertThrows(
@@ -125,7 +124,6 @@ class ProductManagementIntegrationTests {
 
     @Test
     void expectedNullPointerExceptionWithUpdateProduct() throws GetException {
-        saveProduct();
         List<ProductDTO> allProducts = productRestController.getAllProducts();
         Optional<ProductDTO> optionalProductDTO = allProducts.stream().findAny();
         if (optionalProductDTO.isPresent()) {
