@@ -14,8 +14,8 @@ import javax.validation.constraints.NotNull;
 @Entity
 @Table(schema = ProductEntityConstants.PRODUCT_SCHEMA_NAME, name = ProductEntityConstants.PRODUCT_TABLE_NAME,
         uniqueConstraints = {
-                @UniqueConstraint(columnNames = {"ID", "PRODUCT_NAME"}),
-                @UniqueConstraint(columnNames = {"PRODUCT_NAME", "PRODUCT_CODE"})}
+                @UniqueConstraint(name = "ID_PRODUCT_NAME_CONSTRAINT", columnNames = {"ID", "PRODUCT_NAME"}),
+                @UniqueConstraint(name = "PRODUCT_NAME_CODE_CONSTRAINT", columnNames = {"PRODUCT_NAME", "PRODUCT_CODE"})}
 )
 public class ProductEntity extends BaseEntity {
 
